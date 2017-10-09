@@ -1,0 +1,39 @@
+// LIGHTS -------------------------------------------------
+
+		'lights off':function() {
+			$.get('http://192.168.1.26:8080/led?cmd=led_off');
+		},
+
+		'lights on':function() {
+			$.get('http://192.168.1.26:8080/led?cmd=led_on');
+		},
+
+		'lights fade':function() {
+			$.get('http://192.168.1.26:8080/led?cmd=led_fade');
+		},
+
+		'lights red':function() {
+			$.get('http://192.168.1.26:8080/led?cmd=led_red');
+		},
+
+		'lights green':function() {
+			$.get('http://192.168.1.26:8080/led?cmd=led_green');
+		},
+
+		'lights blue':function() {
+			$.get('http://192.168.1.26:8080/led?cmd=led_blue');
+		},
+
+		'lights white':function() {
+			$.get('http://192.168.1.26:8080/led?cmd=led_clear');
+		},
+
+		// STEREO -------------------------------------------------
+
+		'stereo on':function() {
+			$.get('http://192.168.1.26:8080/hifi?cmd=sony_power');
+		},
+
+		'stereo off':function() {
+			$.get('http://192.168.1.26:8080/hifi?cmd=sony_power');
+		},

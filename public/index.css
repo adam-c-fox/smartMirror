@@ -1,0 +1,171 @@
+html {
+    font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	background-color: black;
+	padding: 40px;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 0px;
+}
+
+h2 {
+	margin: 10px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+div.weather {
+	float: left;
+	width:400px;
+	padding-bottom: 20px;
+}
+
+div.weather * {
+	float: left;
+	display: inline-block;
+}
+
+div.weather > h2 {
+	position: relative;
+	clear:both;
+}
+
+#forecastTbl {
+	padding: 0;
+	margin: 0;
+	clear:left;
+	width: 320px;
+	font-size: 20px;
+}
+
+#forecastTbl * {
+	height: 30px;
+	text-align: left;
+}
+
+#newsTbl {
+	float:right;
+	clear: right;
+	position: relative;
+	width: 420px;
+}
+
+#newsTbl * {
+	height: 30px;
+}
+
+#icon {
+	position: relative;
+	top: -10px;
+	right: 60px;
+	float: right;
+	font-size: 80px;
+}
+
+div.dateTime {
+	float: right;
+	width:300px;
+	margin-bottom: 45px;
+}
+
+div.dateTime * {
+	float: right;
+}
+
+#date {
+	position: relative;
+	top: 10px;
+}
+
+#calendarHeading {
+	position: relative;
+	right: 320px;
+}
+
+#calendarTbl * {
+	height: 30px;
+}
+
+.rightHeading {
+	float: right;
+	clear: right;
+	position: relative;
+	right: 370px;
+	top: 22px;
+	text-decoration: underline;
+	align-items: baseline;
+}
+
+#recDot {
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	bottom: 0px;
+	opacity: 0}
+
+#muteDot {
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	bottom: 0px;
+	opacity: 0}
+}
+
+.sun {
+	width: 100px;
+	float: left;
+	position: relative;
+	top: -25px;
+}
+
+.sun > i {
+	float: left;
+	position: relative;
+	font-size: 35px;
+	padding-right: 20px;
+	width: 20px;
+}
+
+#sunrise {
+	position: relative;
+	float: left;
+	top: -8px;
+	width: 100px;
+}
+
+#sunset {
+	position: relative;
+	float: left;
+	top: -8px;
+	width: 100px;
+}
+
+#calendarTbl {
+	float: right;
+	clear: right;
+	position: relative;
+	top: 10px;
+	width: 460px;
+}
+
+#cmdList {
+	opacity: 0;
+	position: fixed;
+	left:50%;
+	width: 400px;
+	top: 30px;
+	margin-left: -100px;
+}
+
+#cmdList * {
+	text-align: center;
+	height: 30px;
+}
+
+/** {
+	border: 1px solid white;
+} */
